@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfde6;
+}
+
+.nav-container {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-container .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 10px; 
+}
+
+.nav-container .navigation img {
+    margin-right: 10px;
+}
+
+.navigation .logo-1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+}
+
+.navigation .logo-2 {
+    width: 210px;
+    height: 120px;
+    padding-left: 0%;
+    padding-right: 5%;
+}
+
+
+.nav-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.nav-content li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-content a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav-content a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(237, 226, 226);
+    bottom: -3px;
+    left: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-content a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.content {
+    padding-left: 80px;
+}
+
+.ano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 10px;
+    border-bottom: solid 5px #070604 ;
+}
+
+.ano img {
+    width: 24%;
+    position: absolute;
+    left: 75%; 
+}
+.ngl h1 {
+    padding-left: 15%;
+}
+.ngl h2 {
+    padding-left: 68%;
+}
+.ngl h3 {
+    padding-left: 75%;
+}
+.ngl img {
+    left: 0%;
+}
+.kanton{
+    padding-left: 37%;
+    background-image: url(img/bg2.webp);
+    background-size: cover;
+    background-position: center;
+}
+.othernav{
+    padding-top: 7%;
+    padding-bottom: 15%;
+}
+.kapitan{
+    padding-top: 2%;
+    padding: 7%;
+    text-align: justify;
+    font-size: larger;
+}
+.secret {
+   text-align: center;
+   margin-bottom: 20px;
+   animation-name: none;
+   position: relative;
+   box-sizing: border-box;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   font-size: large;
+}
+.pics {
+    align-self: center;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-basis: auto;
+    flex-shrink: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border-bottom: solid 5px #070604;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 150%;
+    height: 150px%;
+    height: auto;
+    transition: transform 0.5s; 
+    padding-bottom: 5%;
+  }
+  
+  .image-hover:hover {
+    transform: scale(1.1); /* scale up on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* add box shadow on hover */
+  }
+footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    background-color: whitesmoke;
+}
+.eme {
+    display: flex;
+    justify-items: center;
+}
+.eme h1 {
+    font-size: 2em;
+    align-self: baseline;
+}
+.zepol {
+    justify-content: center;
+    display: flex;
+}

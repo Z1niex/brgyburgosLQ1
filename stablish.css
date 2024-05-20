@@ -1,0 +1,587 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfde6;
+}
+
+.nav-container {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-container .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 10px; 
+}
+
+.nav-container .navigation img {
+    margin-right: 10px;
+}
+
+.navigation .logo-1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+}
+
+.navigation .logo-2 {
+    width: 210px;
+    height: 120px;
+    padding-left: 0%;
+    padding-right: 5%;
+}
+
+
+.nav-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.nav-content li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-content a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav-content a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(237, 226, 226);
+    bottom: -3px;
+    left: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-content a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.content {
+    padding-left: 80px;
+}
+
+.ano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 10px;
+    border-bottom: solid 5px #070604 ;
+}
+
+.ano img {
+    width: 24%;
+    position: absolute;
+    left: 75%; 
+    
+}
+footer {
+    background-color: #070604;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    font-size: large;
+    border-bottom: solid 4px black;
+    box-sizing: border-box;
+    background-color: #fdfde6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: #070604;
+}
+.sikat {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    font-size: 150%;
+    border-bottom: solid 4px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sikat :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.masarap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    font-size: 150%;
+    border-bottom: solid 4px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.masarap :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.sarapi {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    font-size: 150%;
+    border-bottom: solid 4px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sarapi :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sarape {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    font-size: 150%;
+    border-bottom: solid 4px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sarape :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.sila {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sila :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.sika {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sika :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.iskul {
+    font-size: 100%;
+    background-color: #fdfde6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: x-large;
+}
+.aral {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    font-size: 150%;
+    border-bottom: solid 4px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aral :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.lwes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lwes :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.adven {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.adven :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.merch {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 5%;
+    font-size: x-large;
+}
+.gall {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gall :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.SM {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.SM :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.mot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 250px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mot :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+
+.paw {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.paw :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+
+.bago {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.gu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gu :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.gora {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gora :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.gas {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 150px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gas :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.bank {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 230px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bank :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.broom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 390px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.broom :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.bai {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bai :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+.phl {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    justify-content: left;
+    align-items: center;
+    gap: 250px;
+    text-align: right;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    padding-bottom: 5%;
+    border-bottom: solid 4px black;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.phl :hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.2);
+}
+footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    background-color: white;
+}
+.logo1 {
+    align-items: baseline;
+    left: 80%;
+ }
